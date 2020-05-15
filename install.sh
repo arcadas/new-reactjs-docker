@@ -16,8 +16,8 @@ mv ${PWD}/app/public .
 mv ${PWD}/app/src .
 mv ${PWD}/app/package.json .
 mv ${PWD}/app/yarn.lock .
-mv {$PWD}/app/.gitignore .
-mv {$PWD}/app/README.md .
+mv ${PWD}/app/.gitignore .
+mv ${PWD}/app/README.md .
 
 # Remove create-react-app container
 docker container rm -f create-react-app
